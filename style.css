@@ -1,0 +1,29 @@
+.content {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 271px;
+    height: 206px;
+    background-image: url(nadpis.png);
+    position: absolute;
+    left: 420px;
+    top: -41px;
+}
+
+img {
+    width: 400px;
+}
+
+p {
+    text-indent: -9999px;
+    position: absolute;
+    width: 328px;
+    height: 51px;
+    background-image: url(podzim.png);
+    left: 420px;
+    top: 180px;
+}
