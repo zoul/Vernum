@@ -1,7 +1,8 @@
 .content {
     position: relative;
+    width: 770px;
+    margin: auto;
     margin-top: 100px;
-    margin-left: 200px;
 }
 
 h1 {
