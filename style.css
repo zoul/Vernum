@@ -49,6 +49,7 @@ h1 .rok {
 
 .nastroj, .kde {
     color: gray;
+    white-space: nowrap;
 }
 
 .koncerty ul {
