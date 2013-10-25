@@ -52,6 +52,10 @@ h1 .rok {
     font-style: italic;
 }
 
+a {
+    color: rgb(204, 98, 95);
+}
+
 .sloupek {
     padding-left: 30px;
     float: left;
