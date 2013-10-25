@@ -7,16 +7,31 @@ body {
     background-color: #ddd;
     color: #333;
     min-width: 1200px;
+    padding-bottom: 60px;
 }
 
 .zahlavi {
     padding-top: 30px;
     background: url(vlnky.png);
+    position: relative;
 }
 
 .zahlavi img {
     width: 100%;
     height: auto;
+}
+
+.autor {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+}
+
+.autor a {
+    color: #ddd;
+    font-size: 11px;
+    text-decoration: none;
 }
 
 h1, h2 {
@@ -56,4 +71,8 @@ h1 .rok {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.clear {
+    clear: both;
 }
