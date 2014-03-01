@@ -1,88 +1,101 @@
-body {
+@import url(fonts/stylesheet.css);
+
+body, h1, h2, ul, p {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.7em;
-    font-weight: lighter;
-    background-color: #ddd;
-    color: #333;
-    min-width: 1200px;
-    padding-bottom: 60px;
 }
 
-.zahlavi {
-    padding-top: 30px;
+body {
+    font-family: 'Mundo Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    min-width: 1000px;
+    font-weight: normal;
     background: url(vlnky.png);
+    color: #333;
+}
+
+/* Image header */
+
+.header {
     position: relative;
 }
 
-.zahlavi img {
+.header img {
     width: 100%;
+    opacity: 0.9;
     height: auto;
 }
 
-.autor {
+.credits {
     position: absolute;
     bottom: 10px;
     right: 10px;
     margin: 0;
 }
 
-.autor a {
+.credits a {
     color: #ddd;
     font-size: 11px;
     text-decoration: none;
 }
 
+/* Layout */
+
+.content {
+    width: 80%;
+    min-width: 900px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.about, .main {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.about {
+    padding-right: 50px;
+    text-align: right;
+    width: 45%;
+}
+
+/* Content */
+
 h1, h2 {
-    font-weight: 100;
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    color: gray;
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    margin-top: 1ex;
 }
 
 h1 {
-    font-size: 300%;
-    margin-bottom: 30px;
-    padding-left: 30px;
-    word-spacing: -0.2ex;
+    font-size: 64px;
+    font-style: italic;
+    color: #945200;
 }
 
-h1 .rok {
-    color: rgb(204, 98, 95);
-    font-style: italic;
+h1 .year {
+    font-style: normal;
 }
 
 h2 {
-    font-size: 200%;
+    color: #941751;
 }
 
 a {
-    color: rgb(204, 98, 95);
+    color: #005493;
 }
 
-.sloupek {
-    padding-left: 30px;
-    float: left;
-    box-sizing: border-box;
+ul, p {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
 }
 
-.my { width: 30%; }
-.program { width: 25%; }
-.koncerty { width: 45%; }
-
-.nastroj, .kde {
-    color: gray;
-    white-space: nowrap;
-}
-
-.koncerty ul {
+ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.clear {
-    clear: both;
 }

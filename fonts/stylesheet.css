@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Mundo Sans';
+    src: url('MundoSansPro.eot');
+    src: url('MundoSansPro.eot?#iefix') format('embedded-opentype'),
+         url('MundoSansPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mundo Sans';
+    src: url('MundoSansProLight.eot');
+    src: url('MundoSansProLight.eot?#iefix') format('embedded-opentype'),
+         url('MundoSansProLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mundo Sans';
+    src: url('MundoSansProLightItalic.eot');
+    src: url('MundoSansProLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('MundoSansProLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
