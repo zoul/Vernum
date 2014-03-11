@@ -99,3 +99,8 @@ ul, p {
 ul {
     list-style: none;
 }
+
+ul.styled li:before {
+    content: "— ";
+    color: gray;
+}
