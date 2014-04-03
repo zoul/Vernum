@@ -4,7 +4,17 @@
     <meta charset="utf-8">
     <title>Vernum 2013 Ensemble</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
     <script src="ga.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script>
+        $(function() {
+            $(".gallery a").fancybox({
+                "margin": [40, 40, 40, 40]
+            });
+        });
+</script>
 </head>
 <body>
 
@@ -14,7 +24,8 @@
     </div>
 
     <div class="content">
-        <div class="about">
+
+        <div class="about column left">
             <h1>Vernum <span class="year">2013</span> Ensemble</h1>
             <p>Jsme uskupení profesionálních a amatérských zpěváků
             a hudebníků-přátel, kteří se při různých příležitostech setkávají
@@ -27,7 +38,8 @@
                 <li><a href="https://www.facebook.com/vernum2013ensemble">Facebook</a></li>
             </ul>
         </div>
-        <div class="main">
+
+        <div class="main column">
             <h2>Koncerty</h2>
             <p>Na jarní sezónu jsme pro vás připravili Svatební košile Antonína
             Dvořáka, op. 69. Aktuální koncerty:</p>
@@ -52,7 +64,18 @@
             Gloria Francise Poulenca, Ave Maria z opery Dialogy Karmelitek
             Francise Poulenca (vše jaro 2013) a Requiem W. A. Mozarta (podzim
             2013).</p>
+        </div>
 
+        <div class="gallery">
+            <a href="photos/1.jpg" title="Zámek Kunštát, naše „rodná“ scéna" rel="photos"><img src="thumbs/1.jpg"></a>
+            <a href="photos/2.jpg" title="Zámek Kunštát" rel="photos"><img src="thumbs/2.jpg"></a>
+            <a href="photos/3.jpg" title="kostel sv. Michaela ve Vítochově" rel="photos"><img src="thumbs/3.jpg"></a>
+            <a href="photos/4.jpg" title="Vítochov, zkouška Requiem" rel="photos"><img src="thumbs/4.jpg"></a>
+            <a href="photos/5.jpg" title="Requiem v Mendelově muzeu" rel="photos"><img src="thumbs/5.jpg"></a>
+            <a href="photos/6.jpg" title="Requiem v Mendelově muzeu" rel="photos"><img src="thumbs/6.jpg"></a>
+        </div>
+
+        <div class="rest column left">
             <h2>Ke stažení</h2>
             <p><a href="http://goo.gl/rQN3ei">Na této adrese</a> si můžete stáhnout
             plakát pro jarní program v rozlišení pro běžné použití i tisk a několik
@@ -66,6 +89,7 @@
                 <li><a href="http://vinarstvibukovsky.cz">Vinařství Bukovský</a>
             </ul>
         </div>
+
     </div>
 
 </body>
