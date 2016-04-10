@@ -44,9 +44,9 @@
         <div class="main column">
             <h2>Koncerty</h2>
             
-            <ul>
+            <ul class="styled">
             {% for gig in site.data.koncerty %}
-            <li>{{ gig.kdy }} / <strong>{{ gig.kde }}</strong> / {{ gig.co }}</li>
+            <li>{{ gig.kdy }} / {{ gig.kde }} / {{ gig.co }}</li>
             {% endfor %}
             </ul>
 
