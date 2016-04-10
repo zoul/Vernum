@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -42,8 +44,11 @@
         <div class="main column">
             <h2>Koncerty</h2>
             
-            <p>Po prosincové sérii Rybových Mší vánočních jsme soubor
-            uložili k zimnímu spánku, na shledanou na jaře!</p>
+            <ul>
+            {% for gig in site.data.koncerty %}
+            <li>{{ gig.kdy }} / <strong>{{ gig.kde }}</strong> / {{ gig.co }}</li>
+            {% endfor %}
+            </ul>
 
             <p>V minulosti jsme koncertovali například v poutním kostele
             svatého Michaela archanděla ve Vítochově, kostele Všech svatých
