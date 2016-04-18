@@ -45,7 +45,9 @@
             <h2>Koncerty</h2>
             
             <ul class="styled">
-            {% for gig in site.data.koncerty %}
+            {% assign gigs = site.data.koncerty %}
+            {% assign current_gigs = (gigs | where: "aktualni", "ano" %}
+            {% for gig in current_gigs %}
             <li>{{ gig.kdy }} / {{ gig.kde }} / {{ gig.co }}</li>
             {% endfor %}
             </ul>
