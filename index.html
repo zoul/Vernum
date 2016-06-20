@@ -44,13 +44,17 @@
         <div class="main column">
             <h2>Koncerty</h2>
             
-            <ul class="styled">
             {% assign gigs = site.data.koncerty %}
             {% assign current_gigs = (gigs | where: "aktualni", "ano" %}
+            {% if current_gigs == empty %}
+            <p>Momentálně nejsou žádné koncerty na obzoru.</p>
+            {% else %}
+            <ul class="styled">
             {% for gig in current_gigs %}
             <li>{{ gig.kdy }} / {{ gig.kde }} / {{ gig.co }}</li>
             {% endfor %}
             </ul>
+            {% endif %}
 
             <p>V minulosti jsme koncertovali například v poutním kostele
             svatého Michaela archanděla ve Vítochově, kostele Všech svatých
