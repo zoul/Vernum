@@ -1,18 +1,26 @@
-- kdy: "6. 5. 18.00"
-  kde: Gymnázium Boskovice
-  co: Otvírání studánek
-- kdy: "1. 5. 18.00"
-  kde: Zámek Kunštát
-  co: Otvírání studánek
-- kdy: "1. 5. 15.00"
-  kde: Doubravice nad Svitavou, kostel
-  co: Otvírání studánek
-- kdy: "30. 4. 15.00"
-  kde: Vanovice, evangelický kostel
+- kdy: "16. 4. 18.00"
+  kde: Žďár nad Sázavou, zámek
   co: Otvírání studánek
 - kdy: "19. 4. 19.30"
   kde: Brno, Besední dům
   co: Otvírání studánek
-- kdy: "16. 4. 18.00"
-  kde: Žďár nad Sázavou, zámek
+- kdy: "30. 4. 15.00"
+  kde: Vanovice, evangelický kostel
   co: Otvírání studánek
+- kdy: "1. 5. 15.00"
+  kde: Doubravice nad Svitavou, kostel
+  co: Otvírání studánek
+- kdy: "1. 5. 18.00"
+  kde: Zámek Kunštát
+  co: Otvírání studánek
+- kdy: "6. 5. 18.00"
+  kde: Gymnázium Boskovice
+  co: Otvírání studánek
+- kdy: "29. 4. 18.00"
+  kde: evangelický chrám Vanovice
+  co: "Antonín Dvořák: Mše D dur"
+  aktualni: ano
+- kdy: "1. 5. 18.00"
+  kde: zámek Kunštát
+  co: "Antonín Dvořák: Mše D dur"
+  aktualni: ano
